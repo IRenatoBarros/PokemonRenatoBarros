@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    background-color: rgb(19, 19, 19, 0.5);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/image.png');
+    align-items: center;
+}
+
+#title{
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 21%;
+    color: yellow;
+
+}
+
+#textoComum{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 26%;
+}
+
+#resposta{
+    color:whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 43%;
+}
+
+#pokemon{
+    margin-left: 43%;
+    filter: blur(5px);
+}
+
+#input{
+    margin-left: 38%;
+}
+
