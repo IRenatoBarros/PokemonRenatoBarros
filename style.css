@@ -14,6 +14,14 @@ body{
 
 }
 
+.coracaoInt{
+    width: 50px;
+}
+
+#table{
+    margin-left: 40%;
+}
+
 #textoComum{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -27,7 +35,8 @@ body{
 }
 
 #pokemon{
-    margin-left: 43%;
+    margin-left: 39%;
+    width: 170px;
     filter: blur(5px);
 }
 
