@@ -1,7 +1,6 @@
 const imagem = document.getElementById("pokemon")
 const input = document.getElementById("input")
 const teste = document.getElementById('teste')
-const resposta = document.getElementById("resposta")
 const form = document.getElementById("forms")
 const arrayCoracoes = document.getElementsByTagName('td')
 var numeroAleatorio = Math.floor(Math.random() * 250) + 1;
@@ -16,15 +15,14 @@ fetch('https://pokeapi.co/api/v2/pokemon/'+numeroAleatorio)
     form.addEventListener("submit",(event)=>{
         if(input.value==data.name){
             imagem.style.filter = "blur(0px)"
-            resposta.textContent = 'Correta (;'
             setTimeout(function(){
               window.location.reload()
-            },2000)
+            },3000)
             
             
         }else{
-            resposta.textContent = 'Incorreta ):'   
-            teste.textContent = data.name
+            const namee = data.name 
+            teste.textContent = "Nome começa com -> "+namee.slice(0,controle+1)
             imagem.style.filter = "blur("+blurr+"px)"
             arrayCoracoes[arrayCoracoes.length-1].remove()
         }
