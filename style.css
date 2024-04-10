@@ -19,7 +19,7 @@ body{
 }
 
 #criador{
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: whitesmoke;
     width: 30%;
     padding: 10px;
@@ -52,6 +52,16 @@ body{
     width: 170px;
     filter: blur(5px);
 }
+
+#dicas{
+    color: white;
+}
+
+#dica1{
+    margin-left: 42%;
+}
+
+
 
 #input{
     margin-left: 38%;
