@@ -3,7 +3,7 @@ const input = document.getElementById("input")
 const teste = document.getElementById('teste')
 const form = document.getElementById("forms")
 const arrayCoracoes = document.getElementsByTagName('td')
-var numeroAleatorio = Math.floor(Math.random() * 250) + 1;
+var numeroAleatorio = Math.floor(Math.random() * 150) + 1;
 let controle = 0;
 let blurr = 3;
 
