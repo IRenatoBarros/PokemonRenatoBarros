@@ -18,6 +18,31 @@ body{
     width: 50px;
 }
 
+#tablePoke{
+    color: whitesmoke;
+    border: 1;
+    border-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-left: 80% ;
+    margin-top: -30%;
+    z-index: 3;
+    
+}
+
+.embaixo{
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.td{
+    width: 50px;
+}
+
+#recomecar{
+    margin-left: 41%;
+}
+
 #criador{
     margin-top: 50px;
     background-color: whitesmoke;
@@ -58,7 +83,7 @@ body{
 }
 
 #dica1{
-    margin-left: 42%;
+    margin-left: 45%;
 }
 
 
