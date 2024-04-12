@@ -32,7 +32,8 @@ body{
 
 .embaixo{
     display: block;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
 }
 
 .td{
@@ -76,6 +77,13 @@ body{
     margin-left: 39%;
     width: 170px;
     filter: blur(5px);
+}
+
+#totalDeAcertos{
+    
+    z-index: 4;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #dicas{

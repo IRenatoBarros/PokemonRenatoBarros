@@ -4,6 +4,7 @@ const teste = document.getElementById('teste')
 const form = document.getElementById("forms")
 const arrayCoracoes = document.getElementsByClassName('td')
 const dica1 = document.getElementById("dica1")
+const totalAcertos = document.getElementById('totalDeAcertos')
 const dica2 = document.getElementById("dica2")
 const recomecar = document.getElementById('recomecar')
 const tablePoke = document.getElementById('tablePoke')
@@ -34,7 +35,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/'+numeroAleatorio)
   .then(data => {
     if(pokemonsCertos.includes(data.name)==false){
     console.log(data); // Dados da API
-
+    totalAcertos.textContent = totalAcertos.textContent+' '+pokemonsCertos.length
     imagem.setAttribute("src",data.sprites.front_default)
     dica1.addEventListener('click',()=>{
       //pegando os pokemons que foram acertados adicionando em uma array
